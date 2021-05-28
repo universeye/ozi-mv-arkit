@@ -15,6 +15,7 @@
 		BF1398B125DBC2F100E1DE52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF1398AF25DBC2F100E1DE52 /* LaunchScreen.storyboard */; };
 		BF1398BC25DBC2F100E1DE52 /* oziPinkInkARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1398BB25DBC2F100E1DE52 /* oziPinkInkARTests.swift */; };
 		BF1398C725DBC2F100E1DE52 /* oziPinkInkARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1398C625DBC2F100E1DE52 /* oziPinkInkARUITests.swift */; };
+		BF1398D825DBC34800E1DE52 /* ozipinkinkcover.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BF1398D725DBC34800E1DE52 /* ozipinkinkcover.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BF1398C225DBC2F100E1DE52 /* oziPinkInkARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oziPinkInkARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1398C625DBC2F100E1DE52 /* oziPinkInkARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oziPinkInkARUITests.swift; sourceTree = "<group>"; };
 		BF1398C825DBC2F100E1DE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF1398D725DBC34800E1DE52 /* ozipinkinkcover.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ozipinkinkcover.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				BF1398A425DBC2EE00E1DE52 /* AppDelegate.swift */,
-				BF1398A625DBC2EE00E1DE52 /* art.scnassets */,
 				BF1398A825DBC2EE00E1DE52 /* ViewController.swift */,
 				BF1398AA25DBC2EE00E1DE52 /* Main.storyboard */,
+				BF1398A625DBC2EE00E1DE52 /* art.scnassets */,
 				BF1398AD25DBC2F100E1DE52 /* Assets.xcassets */,
 				BF1398AF25DBC2F100E1DE52 /* LaunchScreen.storyboard */,
+				BF1398D725DBC34800E1DE52 /* ozipinkinkcover.mp4 */,
 				BF1398B225DBC2F100E1DE52 /* Info.plist */,
 			);
 			path = oziPinkInkAR;
@@ -235,6 +238,7 @@
 				BF1398B125DBC2F100E1DE52 /* LaunchScreen.storyboard in Resources */,
 				BF1398AE25DBC2F100E1DE52 /* Assets.xcassets in Resources */,
 				BF1398AC25DBC2EE00E1DE52 /* Main.storyboard in Resources */,
+				BF1398D825DBC34800E1DE52 /* ozipinkinkcover.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +441,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				DEVELOPMENT_TEAM = N492VC6PS9;
 				INFOPLIST_FILE = oziPinkInkAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,7 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.oziPinkInkAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -456,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9T3DK8DFL5;
+				DEVELOPMENT_TEAM = N492VC6PS9;
 				INFOPLIST_FILE = oziPinkInkAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,7 +469,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dzhiphop.oziPinkInkAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
